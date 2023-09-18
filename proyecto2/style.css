@@ -1,0 +1,73 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Bebas+Neue&family=Grand+Hotel&family=Neucha&display=swap'); */
+/* :root {
+    --blanco: #FFFFFF;
+
+} */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    max-width: 100%;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.contenedor {
+    width: 90%;
+    margin: 0;
+}
+
+.front-page img {
+    width: 1380px;
+    height: 550px;
+}
+.front-page h1{
+    font-size: 1.5rem;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 15px;
+}
+.front-page p{
+    position: absolute;
+    font-size: 15px;
+    color: rgb(214, 210, 210);
+    top: 250px;
+    left: 17px;
+    width: 450px;
+
+}
+
+.front-page:hover p{
+    color: rgb(233, 229, 229);
+}
+
+.front-page button{
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    color:rgb(211, 208, 208); ;
+    top:370px;
+    left:25px;
+    background-color: rgba(0, 0, 0, 0.911);
+    border: solid 1px;
+    border-radius: 6px;
+}
+
+.btn img{
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    top: 10px;
+    left: 10px;
+    display: inline;
+}
+
+.btn h3{
+    font-size: 13px;
+    display: inline;
+    padding-left: 5px;
+}
